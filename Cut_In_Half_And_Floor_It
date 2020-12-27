@@ -1,0 +1,13 @@
+function cutInHalfAndFloor(num) {
+  const array = [1,2.5,3.75,4.2,5.4,8.1]
+  const half = Math.ceil(array.length/2);
+  
+  const FirstHalf = list.splice(0, half)
+  const SecondHalf = list.splice(-half)
+  
+  console.log(Math.floor(FirstHalf));
+  console.log(Math.floor(SecondHalf));
+}
+
+// Do not edit this line;
+module.exports = cutInHalfAndFloor;

@@ -1,0 +1,9 @@
+function countOfAllBooleansAndStrings(arr) {
+  const arr = [true, false, true, false, true, false, true, true, false, false, true];
+  const count = arr.filter(Boolean).length;
+
+  console.log(count);
+}
+
+// Do not edit this line;
+module.exports = countOfAllBooleansAndStrings;

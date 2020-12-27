@@ -1,0 +1,6 @@
+function greetFriend(name) {
+  console.log("Hello, " + name + "," + " nice to meet you!")
+}
+
+// Do not edit this line;
+module.exports = greetFriend;

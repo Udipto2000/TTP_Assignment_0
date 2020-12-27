@@ -1,0 +1,11 @@
+function titleCaseEdit(title) {
+  return title.replace(
+    /\w\S*/g,
+    function(text) {
+      return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+    }
+   );
+}
+
+// Do not edit this line;
+module.exports = titleCaseEdit;

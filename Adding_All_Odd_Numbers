@@ -3,9 +3,9 @@ function sumOfAllOddNumbers(nums) {
 
 const sumOdd = (numbers) => {
   let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 != 0) {
-    sum = sum + numbers[i];
+  for (let z = 0; z < numbers.length; z++) {
+    if (numbers[z] % 2 != 0) {
+    sum = sum + numbers[z];
     }
   }
   return sum;

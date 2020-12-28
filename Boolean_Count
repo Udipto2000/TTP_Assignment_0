@@ -1,5 +1,5 @@
 function countOfAllBooleans(arr) {
-  Boolean_List = [True,True,False,True,False,False,False,True,True]
+  Boolean_List = [True,True,False,True,False,False,False,True,True] // True = 1 ; False = 0
   
   True_Boolcount = sum(Boolean_List)
   

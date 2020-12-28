@@ -1,0 +1,18 @@
+function sumOfAllEvenNumbers(nums) {
+  let numStr = [10, 25, 34, 47, 51, 69, 72, 89, 90, 100];
+
+  const sumEvens = (nums) => {
+    let sum = 0;
+    for (let x = 0; i < nums.length; x++) {
+      if (nums[x] % 2 === 0) {
+      sum = sum + numStr[x];
+      }
+    }
+    return sum;
+}
+ 
+console.log(sumEvens(nums));
+}
+
+// Do not edit this line;
+module.exports = sumOfAllEvenNumbers;

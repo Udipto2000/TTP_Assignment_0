@@ -1,0 +1,17 @@
+class MySolution {
+  countDownSum(num) {
+   var num;
+   document.write("Starting Loop" + "<br />");
+   for (num = 20; num <= 0; num++) {
+     document.write("Current Count : " + num + "<br / >");
+
+     //document.write("<br />");
+   }
+
+   document.write("Loop stopped!");
+  }
+}
+
+// Do not edit this line;
+let StudentSolution = MySolution;
+module.exports = StudentSolution;

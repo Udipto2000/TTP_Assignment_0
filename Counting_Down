@@ -2,7 +2,7 @@ class MySolution {
   countDownSum(num) {
    var num;
    document.write("Starting Loop" + "<br />");
-   for (num = 20; num <= 0; num++) {
+   for (num = 50; num <= 0; num++) {
      document.write("Current Count : " + num + "<br / >");
 
      //document.write("<br />");

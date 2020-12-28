@@ -1,0 +1,13 @@
+function productOfAnyAmountOfNumbers(array) {
+var array = [1, 2, 3, 5, 8, 13],
+    p = 1,
+    i;
+for (i = 0; i < array.length; i += 1) 
+   {
+    p *= array[i];
+    }
+console.log(' Product :  ' + p); 
+}
+
+// Do not edit this line;
+module.exports = productOfAnyAmountOfNumbers;

@@ -1,0 +1,9 @@
+function isPalindrome(a, b) {
+ return(b=b||0)<0||b>=a.length>>1||a[b]==a[a.length-1-b]&&isPalindrome(a,++b);
+}
+console.log(isPalindrome('radar'));
+console.log(isPalindrome('civic'));
+}
+
+// Do not edit this line;
+module.exports = isPalindrome;

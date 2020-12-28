@@ -1,0 +1,11 @@
+function setUnionOfAnyAmountOfSets(...args) {
+    A = [1, 2, 3, 4];
+    B = [5, 2, 3, 9];
+
+  diff = A.filter(function(x) { return B.indexOf(x) < 0 })
+
+  console.log(diff);
+}
+
+// Do not edit this line;
+module.exports = setUnionOfAnyAmountOfSets;

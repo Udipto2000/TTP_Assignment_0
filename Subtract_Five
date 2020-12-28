@@ -3,7 +3,7 @@ function subtractFive(num) {
   
   console.log (5-false); // 5
   
-  console.log (5-Snoopy); // NaN
+  console.log (5-Snoopy); // NaN ; You cannot subtract any words with a numerical value
   
   console.log (5-7); // -2
 }

@@ -1,4 +1,4 @@
-function cutInHalfAndFloor(num) {
+function cutInHalfAndFloor(num) {  // 'Flooring' is completely opposite of 'Rounding' 
   const array = [1,2.5,3.75,4.2,5.4,8.1]
   const half = Math.ceil(array.length/2);
   

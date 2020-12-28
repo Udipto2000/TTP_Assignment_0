@@ -1,0 +1,20 @@
+var arr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+function frequencyCounter(word) {
+
+    var count=0, temp = [];
+    word = word.split('');
+    console.log(word);
+    for(var i=0, len = word.length; i < len; i++) {
+        if(word[i] == "a") {
+            count++;
+        }
+    }
+    return count;
+}
+var a = "aabbddd";
+console.log(counter(a));
+}
+
+// Do not edit this line;
+module.exports = frequencyCounter;

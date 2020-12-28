@@ -1,0 +1,21 @@
+function sumOfNumsWithinARange(nums, start, end) {
+  var nums = [];
+
+    for (var i = arr[0]; i <= arr[1]; i++) {
+        list.push(i); // start
+    }
+
+    var total = list.reduce(function(a, b) {
+        return a + b; // end
+
+    });
+
+    return total;
+}
+
+// Do not edit this line;
+module.exports = sumOfNumsWithinARange;
+
+
+sumOfNumsWithinARange([1,3]); // returns 6
+
